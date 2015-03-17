@@ -51,10 +51,9 @@ class InterfaceController: WKInterfaceController {
         
     }
     
-
-    
     @IBAction func resetButtonPressed() {
         count = 0
+        countButton.setTitle("\(count)")
     }
     
     @IBAction func countButtonPressed() {
